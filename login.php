@@ -24,7 +24,7 @@
 		if(!isset($_POST["password"])){
 			return;
 		}
-		$db = new mysqli('18.139.34.10:3306','tony','amakau123','users_tes');
+		$db = new mysqli('18.139.34.10:3306','tony','','users_tes');
 		if($db === false){
 			renderError($db -> error);
 			exit();

@@ -22,7 +22,7 @@
 	<div>
 		<?php
 
-		$db = new mysqli('18.139.34.10:3306','tony','amakau123','users_tes');
+		$db = new mysqli('18.139.34.10:3306','tony','','users_tes');
 		if($db === false){
 			echo $db -> error;
 			exit();

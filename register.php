@@ -27,7 +27,7 @@
 	$GLOBALS['db_name'] = "users_tes";
 	$GLOBALS['db_addr'] = '18.139.34.10:3306';
 	$GLOBALS['db_user'] = 'tony';
-	$GLOBALS['db_pass'] = "amakau123";
+	$GLOBALS['db_pass'] = "";
 	$GLOBALS['tb_name'] = 'users';
 
 	$GLOBALS['STATEMENTS'] = array(
@@ -41,7 +41,7 @@
 				password VARCHAR(100) NOT NULL,
 				birthday DATE NOT NULL,
 				gender BIT(1) NOT NULL,
-				serect_word VARCHAR(50) NOT NULL UNIQUE
+				serect_word VARCHAR(50) NOT NULL UNIQUE;
 			)',
 
 		'cD' => 
